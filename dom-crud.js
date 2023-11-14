@@ -12,3 +12,18 @@
 
 // Remove (delete) the last paragraph
 // (starts with "Available for purchase now…")
+
+
+//Requirement 1
+//See html file
+
+//Requirement 2
+const dColor = document.querySelector('img'); 
+const colorAttribute = dColor.getAttribute('data-color');
+console.log(colorAttribute);
+
+// //Requirement 3
+document.querySelectorAll('li')[2].classList.add('highlight');
+
+// //Requirement 4
+document.querySelector('p').innerHTML = '';
